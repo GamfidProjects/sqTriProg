@@ -80,7 +80,7 @@ def SqAreaProgram():
 isRunning = True
 while isRunning:
     while True:
-        modeInput = input("Choose which shape to get the area from(1 - square, 2 - circle): ")
+        modeInput = input("Choose which shape to get the area from(1 - square, 2 - triangle): ")
         if modeInput == "1":
             SqAreaProgram()
             break
@@ -101,11 +101,5 @@ while isRunning:
             isRunning = False
         else:
             print("Not an option!")
-        
-    
 
-
-
-
-print("Exiting program")
 
