@@ -108,5 +108,4 @@ while isRunning:
 
 
 print("Exiting program")
-#read a line so the program DOESNT CLOSE right away
-input("Press enter to close...")
+
